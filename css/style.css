@@ -1,0 +1,135 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+.top-container{
+  background-color: #E6F6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+    padding: 60px 0 60px 0 ;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+h1{
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 2.6rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    width: 3%;
+    border-style: dotted none none;
+    border-width: 5px;
+    color: #E6F6F6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bottom-a{
+    color: #11999E;
+    text-decoration: none;
+}
+
+.bottom-p{
+    color: #E6F6F6;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+
+.user-image{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.computer-image{
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-image{
+    border-radius: 100%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px 0 30px 0;
+}
+
+.bottom-a{
+    margin-left: 20px;
+}
+
+.contact{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    margin: 6.25rem auto 6.25rem auto;
+}
+
+.contact {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.contact:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.contact:active {
+	position:relative;
+	top:1px;
+}
